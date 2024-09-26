@@ -1,4 +1,4 @@
-namespace BookShop.Features.Books;
+namespace BookShop.Models;
 
 public class Book
 {
