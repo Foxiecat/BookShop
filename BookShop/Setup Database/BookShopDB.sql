@@ -14,9 +14,9 @@ FLUSH PRIVILEGES;
 create table Book
 (
     Id int auto_increment primary key,
-    Title varchar(20),
-    Author varchar (50),
+    Title varchar(255),
+    Author varchar (255),
     PublicationYear int,
-    ISBN varchar(100),
+    ISBN varchar(13),
     InStock int
 );
