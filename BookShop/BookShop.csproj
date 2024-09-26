@@ -8,7 +8,15 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.8"/>
+        <PackageReference Include="MySql.Data" Version="9.0.0" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Docs\" />
+      <Folder Include="Logs\" />
+      <Folder Include="Middleware\" />
+      <Folder Include="Repositories\" />
     </ItemGroup>
 
 </Project>
